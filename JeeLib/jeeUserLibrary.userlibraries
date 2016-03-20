@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="Cp1256" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="commons" systemlibrary="false">
+        <archive path="/JeeLib/commons/commons-codec-1.9.jar"/>
+        <archive path="/JeeLib/commons/commons-collections-3.2.jar"/>
+        <archive path="/JeeLib/commons/commons-dbcp-1.4.jar"/>
+        <archive path="/JeeLib/commons/commons-email-1.2.jar"/>
+        <archive path="/JeeLib/commons/commons-io-1.4.jar"/>
+        <archive path="/JeeLib/commons/commons-logging-1.1.1.jar"/>
+        <archive path="/JeeLib/commons/commons-pool-1.5.4.jar"/>
+        <archive path="/JeeLib/commons/httpclient-4.3.3.jar"/>
+        <archive path="/JeeLib/commons/httpcore-4.3.2.jar"/>
+        <archive path="/JeeLib/commons/joda-time-2.6.jar"/>
+        <archive path="/JeeLib/commons/log4j-1.2.13.jar"/>
+        <archive path="/JeeLib/commons/poi-3.9.jar"/>
+        <archive path="/JeeLib/commons/quartz-all-1.8.6.jar"/>
+        <archive path="/JeeLib/commons/slf4j-api-1.6.6.jar"/>
+        <archive path="/JeeLib/commons/slf4j-log4j12-1.6.6.jar"/>
+        <archive path="/JeeLib/commons/slf4j-nop-1.7.6.jar"/>
+        <archive path="/JeeLib/commons/truelicense-core-1.33.jar"/>
+    </library>
+    <library name="hibernate" systemlibrary="false">
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/envers/hibernate-envers-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/jpa/hibernate-entitymanager-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/c3p0/c3p0-0.9.2.1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/c3p0/c3p0-oracle-thin-extras-0.9.2.1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/c3p0/hibernate-c3p0-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/c3p0/mchange-commons-java-0.2.3.4.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/ehcache/ehcache-core-2.4.3.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/ehcache/hibernate-ehcache-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/ehcache/slf4j-api-1.6.1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/hibernate-infinispan-4.2.0.Final-tests.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/hibernate-infinispan-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/infinispan-core-5.2.0.Beta3.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/jboss-logging-3.1.1.GA.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/jboss-marshalling-1.3.15.GA.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/jboss-marshalling-river-1.3.15.GA.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/jgroups-3.2.0.CR1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/rhq-pluginAnnotations-3.0.4.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/stax2-api-3.1.1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/staxmapper-1.1.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/infinispan/woodstox-core-asl-4.1.1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/proxool/hibernate-proxool-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/optional/proxool/proxool-0.8.3.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/antlr-2.7.7.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/dom4j-1.6.1.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/hibernate-commons-annotations-4.0.1.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/hibernate-core-4.2.0.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/javassist-3.15.0-GA.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/jboss-logging-3.1.0.GA.jar"/>
+        <archive path="/JeeLib/hibernate-release-4.2.0.Final/required/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+    </library>
+    <library name="jdbc" systemlibrary="false">
+        <archive path="/JeeLib/jdbc/h2-1.2.132.jar"/>
+        <archive path="/JeeLib/jdbc/mysql-connector-java-5.1.16-bin.jar"/>
+    </library>
+    <library name="junit" systemlibrary="false">
+        <archive path="/JeeLib/junit/hamcrest-core-1.1.jar"/>
+        <archive path="/JeeLib/junit/junit-4.8.1.jar"/>
+    </library>
+    <library name="spring" systemlibrary="false">
+        <archive path="/JeeLib/spring-3.2/aopalliance-1.0.jar"/>
+        <archive path="/JeeLib/spring-3.2/aspectjweaver.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-aop-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-aspects-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-beans-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-context-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-context-support-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-core-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-expression-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-jdbc-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-jms-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-ldap-core-2.0.2.RELEASE-sources.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-ldap-core-2.0.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-orm-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-oxm-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-security-core-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-security-ldap-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-security-web-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-test-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-tx-3.2.2.RELEASE.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-vaadin-integration-2.0.2.jar"/>
+        <archive path="/JeeLib/spring-3.2/spring-web-3.2.2.RELEASE.jar"/>
+    </library>
+    <library name="vaadin" systemlibrary="false">
+        <archive path="/JeeLib/vaadin-addon/filteringtable-0.9.10.v7.jar"/>
+        <archive path="/JeeLib/vaadin-addon/filteringtable-0.9.2.v7.jar"/>
+        <archive path="/JeeLib/vaadin-addon/messagebox-2.0.6.jar"/>
+        <archive path="/JeeLib/vaadin-addon/popupbutton-jar-2.2.1.jar"/>
+        <archive path="/JeeLib/vaadin-addon/tableexport-for-vaadin-1.5.1.3.jar"/>
+        <archive path="/JeeLib/vaadin-addon/wizards-for-vaadin-1.1.0.jar"/>
+    </library>
+</eclipse-userlibraries>

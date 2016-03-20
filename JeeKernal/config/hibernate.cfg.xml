@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.c3p0.min_size">1</property>
+	    <property name="hibernate.c3p0.max_size">50</property>
+	    <property name="hibernate.c3p0.timeout">300</property>
+	    <property name="hibernate.c3p0.max_statements">0</property>
+	    <property name="hibernate.c3p0.idle_test_period">300</property>
+	    <property name="hibernate.c3p0.acquire_increment">1</property>
+		    
+		<!-- ========================================= -->
+		<!-- Mapping the basic feature classes   -->
+		<!-- ========================================= -->
+		<mapping class="com.jee.model.userAdmin.JeeUser"/>
+		
+		<mapping class="com.jee.model.voucher.Category"/>
+		<mapping class="com.jee.model.voucher.Voucher"/>
+		<mapping class="com.jee.model.voucher.Beneficiary"/>
+		<mapping class="com.jee.model.voucher.Distribution"/>
+		<mapping class="com.jee.model.voucher.DistributionDetail"/>
+		<mapping class="com.jee.model.voucher.Participation"/>
+		
+	</session-factory>
+</hibernate-configuration>
